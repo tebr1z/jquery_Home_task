@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Task</title>
+    <link rel="stylesheet" href="https://hasimovtabriz.com.tr/assets/styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <div class="input-group gap-3 " >
+                    <input type="text" id="citys" class="form-control" placeholder="Enter city name" de>
+                    <div class="input-group-append">
+                        <select class="custom-select" id="options">
+                            <option selected>Choose...</option>
+                            <option value="cel">Celsius</option>
+                            <option value="fah">Fahrenheit</option>
+                        </select>
+                    </div>
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button" id="search">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="results" class="row">
+            <div class="col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item"><strong>City:</strong> <span id="city">N/A</span></li>
+                    <li class="list-group-item"><strong>Country:</strong> <span id="country">N/A</span></li>
+                    <li class="list-group-item"><strong>Weather:</strong> <span id="weather">N/A</span></li>
+                    <li class="list-group-item"><strong>Sky Condition:</strong> <span id="sky-condition">N/A</span></li>
+                    <li class="list-group-item"><strong>Cloudy:</strong> <span id="cloudy">N/A</span> <img id="weather-icon" class="weather-icon" src="" alt="Weather Icon"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
