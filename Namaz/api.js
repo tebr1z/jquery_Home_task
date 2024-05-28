@@ -89,7 +89,7 @@ $(document).ready(function() {
 
     $('#country').change(function() {
         const country = $(this).val();
-        $('#city').empty().append('<option value="">Şehir seçin</option>');
+        $('#city').empty().append('<option value="">Şehər seçin</option>');
         $('#district').empty().append('<option value="">İlk olaraq şeher seçin</option>');
 
         if (country) {
